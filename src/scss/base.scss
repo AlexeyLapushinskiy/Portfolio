@@ -1,0 +1,40 @@
+//$bg-color: white;
+
+body {
+  background: white;
+}
+
+header {
+  background: #082841;
+  height: 672px;
+  width: 100%;
+
+  .photo {
+    width: 552px;
+    height: inherit;
+    background: lightyellow;
+    float: left;
+  }
+
+  .header-titles {
+    padding-top: 65px;
+    margin-left: 647px;
+    color: white;
+
+    .role {
+      display: block;
+      font-size: 24px;
+    }
+
+    .name {
+      display: block;
+      font-size: 40px;
+      margin-top: 11px;
+    }
+
+    .description {
+      width: 545px;
+      margin-top: 234px;
+    }
+  }
+}
